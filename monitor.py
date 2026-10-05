@@ -33,7 +33,7 @@ MAX_STATE = 3000
 # -----------------------------------------------
 
 WEBHOOK = os.environ.get("DISCORD_WEBHOOK", "")
-ROLE_ID = os.environ.get("DISCORD_ROLE_ID", "").strip()   # Analytiker-rollen (valgfri)
+ROLE_ID = os.environ.get("DISCORD_ROLE_ID", "").strip() or "1556578221695434773"   # Analytiker-rollen (valgfri)
 session = requests.Session()
 session.headers["User-Agent"] = "cs2-monitor/3.0"
 wallet_cache = {}
