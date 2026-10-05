@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """
-CS2 Polymarket-overvågning v3 (GitHub Actions)
+CS2 Polymarket-overvågning v4 (GitHub Actions)
 GitHub starter scriptet ca. hvert 5. minut. Scriptet bliver kørende i ~5 minutter
 og tjekker kommende og igangværende CS2-kampe hvert minut.
 
 Finder to mønstre:
  1. 🟠 Én ny wallet med en stor indsats i forhold til markedets volumen.
  2. 🔴 En klynge: flere nye wallets der satser på samme udfald i samme kamp.
+ 3. 🟣 Stor live-indsats: enhver wallet der satser stort under en kamp.
+ 4. 👁️ Overvågningsliste: udvalgte wallets giver alarm hver gang de satser.
 """
 import os
 import json
@@ -21,22 +23,29 @@ DATA = "https://data-api.polymarket.com"
 # ---------------- Indstillinger ----------------
 CHECKS_PER_RUN = 5          # antal tjek pr. GitHub-kørsel
 SECONDS_BETWEEN = 60        # tid mellem tjek
-HOURS_BEFORE = 48           # kampe der starter inden for så mange timer
-HOURS_AFTER = 8             # ... eller startede for højst så mange timer siden
+HOURS_BEFORE = 2            # kampe der starter inden for så mange timer
+HOURS_AFTER = 6             # ... eller startede for højst så mange timer siden (live)
 MIN_BET_USD = 1000          # enkelt wallet: mindste samlede indsats
 VOLUME_SHARE = 0.30         # enkelt wallet: mindst 30 % af markedets volumen
 MAX_PRIOR_MARKETS = 2       # "ny" wallet = har handlet i højst så mange markeder
 CLUSTER_MIN_WALLETS = 3     # klynge: mindst så mange nye wallets på samme udfald
 CLUSTER_MIN_EACH_USD = 200  # klynge: hver wallet skal have sat mindst dette
+LIVE_MIN_USD = 2000         # live: mindste indsats sat efter kampstart (alle wallets)
+LIVE_VOLUME_SHARE = 0.20    # live: mindst 20 % af markedets volumen
+WATCHLIST = [               # wallets der altid giver alarm (små bogstaver)
+    "0xe53f33f58574723549c8d32a06bb03c592e82f56",
+]
+WATCH_STEP_USD = 1000       # ny overvågnings-alarm hver gang indsatsen vokser så meget
 STATE_FILE = "state.json"
 MAX_STATE = 3000
 # -----------------------------------------------
 
 WEBHOOK = os.environ.get("DISCORD_WEBHOOK", "")
-ROLE_ID = os.environ.get("DISCORD_ROLE_ID", "").strip() or "1556578221695434773"   # Analytiker-rollen (valgfri)
+ROLE_ID = os.environ.get("DISCORD_ROLE_ID", "").strip() or "1556578221695434773"   # Analytiker-rollen
 session = requests.Session()
-session.headers["User-Agent"] = "cs2-monitor/3.0"
+session.headers["User-Agent"] = "cs2-monitor/4.0"
 wallet_cache = {}
+WATCH = {w.lower() for w in WATCHLIST}
 
 
 def get(url, params=None):
@@ -145,6 +154,8 @@ def check_market(m, state):
     cid = m["conditionId"]
     volume = float(m.get("volumeNum") or m.get("volume") or 0)
     trades = get(f"{DATA}/trades", {"market": cid, "limit": 500}) or []
+    start = parse_time(e.get("startTime"))
+    start_ts = int(start.timestamp()) if start else 0
 
     totals = {}
     for t in trades:
@@ -154,19 +165,76 @@ def check_market(m, state):
             size, price = float(t["size"]), float(t["price"])
         except (KeyError, TypeError, ValueError):
             continue
-        a = totals.setdefault((t["proxyWallet"], t.get("outcome")), {"usd": 0.0, "shares": 0.0, "last": 0})
+        a = totals.setdefault((t["proxyWallet"].lower(), t.get("outcome")),
+                              {"usd": 0.0, "shares": 0.0, "last": 0, "live_usd": 0.0, "live_shares": 0.0})
+        ts = int(t.get("timestamp") or 0)
         a["usd"] += size * price
         a["shares"] += size
-        a["last"] = max(a["last"], int(t.get("timestamp") or 0))
+        a["last"] = max(a["last"], ts)
+        if start_ts and ts >= start_ts:
+            a["live_usd"] += size * price
+            a["live_shares"] += size
 
     match = (e.get("title") or "").replace("Counter-Strike: ", "")
     market_name = (m.get("question") or "").replace("Counter-Strike: ", "")
     link = f"https://polymarket.com/event/{e.get('slug')}"
-    start = parse_time(e.get("startTime"))
     start_txt = f"<t:{int(start.timestamp())}:R>" if start else "?"
     new_by_outcome = {}
+    open_link = {"name": "\u200b", "value": f"**[➜ Åbn kampen på Polymarket]({link})**", "inline": False}
 
     for (wallet, outcome), a in totals.items():
+        wlink = f"[{short(wallet)}](https://polymarket.com/profile/{wallet})"
+
+        # Mønster 4: overvågningsliste
+        if wallet in WATCH and a["usd"] >= 1:
+            step = int(a["usd"] // WATCH_STEP_USD)
+            wkey = f"watch|{cid}|{wallet}|{outcome}|{step}"
+            if wkey not in state["alerted"]:
+                avg = a["usd"] / a["shares"] if a["shares"] else 0
+                send_discord({
+                    "title": "👁️ Wallet på overvågningslisten har satset",
+                    "url": link,
+                    "description": f"**{match}**\n{market_name}",
+                    "color": 0x3498DB,
+                    "fields": [
+                        {"name": "Udfald", "value": str(outcome), "inline": True},
+                        {"name": "Samlet indsats", "value": f"${a['usd']:,.0f}", "inline": True},
+                        {"name": "Købt til", "value": f"{avg*100:.0f} %", "inline": True},
+                        {"name": "Wallet", "value": wlink, "inline": True},
+                        {"name": "Volumen", "value": f"${volume:,.0f}", "inline": True},
+                        {"name": "Kampstart", "value": start_txt, "inline": True},
+                        open_link,
+                    ],
+                    "footer": {"text": "Match Watch · overvågningsliste"},
+                    "timestamp": datetime.now(timezone.utc).isoformat(),
+                }, ping=True)
+                state["alerted"].append(wkey)
+
+        # Mønster 3: stor live-indsats (alle wallets)
+        live_share = a["live_usd"] / volume if volume else 1.0
+        lkey = f"live|{cid}|{wallet}|{outcome}"
+        if a["live_usd"] >= LIVE_MIN_USD and live_share >= LIVE_VOLUME_SHARE and lkey not in state["alerted"]:
+            avg = a["live_usd"] / a["live_shares"] if a["live_shares"] else 0
+            n = wallet_market_count(wallet)
+            send_discord({
+                "title": "🟣 Stor indsats under kampen",
+                "url": link,
+                "description": f"**{match}**\n{market_name}",
+                "color": 0x9B59B6,
+                "fields": [
+                    {"name": "Udfald", "value": str(outcome), "inline": True},
+                    {"name": "Live-indsats", "value": f"${a['live_usd']:,.0f}", "inline": True},
+                    {"name": "Købt til", "value": f"{avg*100:.0f} %", "inline": True},
+                    {"name": "Andel af volumen", "value": f"{live_share*100:.0f} % af ${volume:,.0f}", "inline": True},
+                    {"name": "Wallet", "value": f"{wlink} · {n} marked(er)", "inline": True},
+                    {"name": "Kampstart", "value": start_txt, "inline": True},
+                    open_link,
+                ],
+                "footer": {"text": "Match Watch · live-indsats"},
+                "timestamp": datetime.now(timezone.utc).isoformat(),
+            })
+            state["alerted"].append(lkey)
+
         if a["usd"] < CLUSTER_MIN_EACH_USD:
             continue
         n = wallet_market_count(wallet)
@@ -232,15 +300,16 @@ def main():
     state = load_state()
     markets = find_cs2_markets()
     print(f"Fandt {len(markets)} åbne markeder i kommende/igangværende CS2-kampe")
-    if state.get("version") != 3:
+    if state.get("version") != 4:
         send_discord({
-            "title": "✅ Match Watch v3 kører",
-            "description": (f"Jeg tjekker kommende og igangværende CS2-kampe **hvert minut**.\n"
+            "title": "✅ Match Watch v4 kører",
+            "description": (f"Jeg tjekker **live-kampe** og kampe der starter inden for **{HOURS_BEFORE} timer** hvert minut.\n"
+                            f"Nyt: 🟣 store live-indsatser og 👁️ overvågningsliste ({len(WATCH)} wallet).\n"
                             f"Lige nu holder jeg øje med **{len(markets)}** markeder."),
             "color": 0x2ECC71,
             "footer": {"text": "Match Watch"},
         })
-        state["version"] = 3
+        state["version"] = 4
     for i in range(CHECKS_PER_RUN):
         t0 = time.time()
         for m in markets:
