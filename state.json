@@ -1,5 +1,9 @@
 {
- "alerted": [],
+ "alerted": [
+  "watch|0xbbb5800a0667c0c13fa7e22830435c7dfc1c3e5d25ad025aedfdddf82df0b2ef|0xe53f33f58574723549c8d32a06bb03c592e82f56|CTRL Esports|3",
+  "live|0xbbb5800a0667c0c13fa7e22830435c7dfc1c3e5d25ad025aedfdddf82df0b2ef|0xe53f33f58574723549c8d32a06bb03c592e82f56|CTRL Esports",
+  "watch|0xf7d3e76f0d055b2ffd2d858e26f0efbdfefac5c163582680cd4568205d01fad5|0xe53f33f58574723549c8d32a06bb03c592e82f56|CTRL Esports|0"
+ ],
  "started": true,
- "version": 3
+ "version": 4
 }
