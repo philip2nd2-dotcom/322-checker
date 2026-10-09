@@ -192,7 +192,11 @@
   "score|0x4408def4527057e17f2331f5dc2525d64abff3dc8dc20f401db5ee85811a657a|G2 Ares|1",
   "score|0x9fea6f93c39f8c05c119c013674000fc0d6d6b5853bcd1e95ac612f5b6f8b538|Rare Atom|1",
   "score|0x9fea6f93c39f8c05c119c013674000fc0d6d6b5853bcd1e95ac612f5b6f8b538|Vitalem Aerem|1",
-  "score|0x4408def4527057e17f2331f5dc2525d64abff3dc8dc20f401db5ee85811a657a|G2 Ares|2"
+  "score|0x4408def4527057e17f2331f5dc2525d64abff3dc8dc20f401db5ee85811a657a|G2 Ares|2",
+  "score|0xcca5951f4e50d769a77d507371e1aab77e661071caba08dabd1820c1ff5151df|PURE|2",
+  "score|0xd03ce08ce2ba02e5d4af4588c57c705a342442e39a9af882f40824ee67ac3314|The Huns Esports|1",
+  "score|0x1855b9c496b109bd008ec9777799c3196302b14102cae0823925403ed18367ab|Just Players|1",
+  "score|0xede9471c1aa789cdcf407dd5aaf9e1d65fb5909a95c1ce27e6c2f447018dc6d4|PURE|2"
  ],
  "started": true,
  "version": 51
