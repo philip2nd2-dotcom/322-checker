@@ -211,7 +211,12 @@
   "score|0xd696e1cd50f437446c33d348eee11abd97e11496b274ba9c96d8f04997bbcc57|Galorys|2",
   "score|0xdd337b357818bf23b99e0eaa109d4d86c96219b6cd1a6003f4b40a31ae7b85f3|BORRACHEIROS|1",
   "score|0xd696e1cd50f437446c33d348eee11abd97e11496b274ba9c96d8f04997bbcc57|Galorys|3",
-  "score|0xd696e1cd50f437446c33d348eee11abd97e11496b274ba9c96d8f04997bbcc57|Turma do Pagode|5"
+  "score|0xd696e1cd50f437446c33d348eee11abd97e11496b274ba9c96d8f04997bbcc57|Turma do Pagode|5",
+  "score|0x6eebd3549687df02813fbd00ed78a7f84b4e891e7285096d583be42fa88cd0a5|Turma do Pagode|1",
+  "score|0x6eebd3549687df02813fbd00ed78a7f84b4e891e7285096d583be42fa88cd0a5|Turma do Pagode|2",
+  "score|0x6eebd3549687df02813fbd00ed78a7f84b4e891e7285096d583be42fa88cd0a5|Galorys|1",
+  "score|0x6eebd3549687df02813fbd00ed78a7f84b4e891e7285096d583be42fa88cd0a5|Galorys|2",
+  "score|0x6eebd3549687df02813fbd00ed78a7f84b4e891e7285096d583be42fa88cd0a5|Turma do Pagode|3"
  ],
  "started": true,
  "version": 51
