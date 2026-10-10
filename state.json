@@ -248,7 +248,10 @@
   "score|0x2f699a27896f059d00ad88ab9e37e3568747f0bfddcd581b8c192a6095f6dcb6|Vitalem Aerem|1",
   "score|0x9404b233a7aaa691e392ef75df73e2ec09392576a09f2dd35184ec7dbdc541ae|DENDELE CS|1",
   "score|0xc1ad2a5d71a973e340852404999adea5c8ed1a5d8e702caa790ca30b698e27da|NRG|1",
-  "score|0xc1ad2a5d71a973e340852404999adea5c8ed1a5d8e702caa790ca30b698e27da|Wildcard|1"
+  "score|0xc1ad2a5d71a973e340852404999adea5c8ed1a5d8e702caa790ca30b698e27da|Wildcard|1",
+  "score|0xc1ad2a5d71a973e340852404999adea5c8ed1a5d8e702caa790ca30b698e27da|Wildcard|2",
+  "score|0xc1ad2a5d71a973e340852404999adea5c8ed1a5d8e702caa790ca30b698e27da|NRG|2",
+  "score|0xc1ad2a5d71a973e340852404999adea5c8ed1a5d8e702caa790ca30b698e27da|Wildcard|3"
  ],
  "started": true,
  "version": 51
