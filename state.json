@@ -229,7 +229,10 @@
   "score|0x9c01265755c624a581d92d48c85cca6808fc8dadfa75d35062e07a74d24286c9|FaZe|2",
   "score|0x9c01265755c624a581d92d48c85cca6808fc8dadfa75d35062e07a74d24286c9|NAVI Junior|3",
   "score|0x44ccc1178617cc21cbf43edfd614e9180be62ed985b8eaf49d1c2dbe7594b6f3|NAVI Junior|1",
-  "score|0xe632c7e6ce5aa9a601565dedefdfcc95b0026378fa6a5937d3128f06c57fc158|NAVI Junior|1"
+  "score|0xe632c7e6ce5aa9a601565dedefdfcc95b0026378fa6a5937d3128f06c57fc158|NAVI Junior|1",
+  "score|0x44ccc1178617cc21cbf43edfd614e9180be62ed985b8eaf49d1c2dbe7594b6f3|FaZe|1",
+  "score|0x44ccc1178617cc21cbf43edfd614e9180be62ed985b8eaf49d1c2dbe7594b6f3|NAVI Junior|2",
+  "score|0x4056356dfdeeb444c20d40b4c3fa047f71e186e1c9a760f35035bbb6da5dc6f7|NAVI Junior|3"
  ],
  "started": true,
  "version": 51
