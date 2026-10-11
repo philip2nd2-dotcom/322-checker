@@ -282,7 +282,11 @@
   "score|0xa41ae82d736ef90e7f552f941dd40bdbdda46775a5c60cc9300cec7536090ca3|THE UNIT|2",
   "score|0xa41ae82d736ef90e7f552f941dd40bdbdda46775a5c60cc9300cec7536090ca3|Teletubisie|1",
   "score|0xf03084d690b643ec0337b94ff0bf1c6bc2a6bfad10248a9dbc71df6c38c42238|Kaleido Gaming|1",
-  "score|0xa41ae82d736ef90e7f552f941dd40bdbdda46775a5c60cc9300cec7536090ca3|Teletubisie|2"
+  "score|0xa41ae82d736ef90e7f552f941dd40bdbdda46775a5c60cc9300cec7536090ca3|Teletubisie|2",
+  "score|0x3dc0000b4ca1929169c2effba31901ad62e279ead9805b453fd5a241d3effd00|aimclub|2",
+  "score|0x7a564acb5cb14efd3885db3f038890e459c1f563d86b13eb46e42267e9f51cb5|Imperial|10",
+  "score|0x3081a322dd76175d61daab1bb6ff7808560df2daf5c0cdaf4e2f0e3c1293adbe|Kaleido Gaming|1",
+  "score|0x3dc0000b4ca1929169c2effba31901ad62e279ead9805b453fd5a241d3effd00|aimclub|1"
  ],
  "started": true,
  "version": 51
