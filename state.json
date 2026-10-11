@@ -315,7 +315,10 @@
   "score|0x33d2487c6de863ed685d841dba1cfe7648bae6b71df05b76badaa38626b65b7a|DENDELE CS|2",
   "score|0x63d05922033616a668638289b806c5cb7c355d49c7f8624ee0785c8598d8fadc|DENDELE CS|1",
   "score|0x33d2487c6de863ed685d841dba1cfe7648bae6b71df05b76badaa38626b65b7a|DENDELE CS|4",
-  "score|0x33d2487c6de863ed685d841dba1cfe7648bae6b71df05b76badaa38626b65b7a|Imperial|3"
+  "score|0x33d2487c6de863ed685d841dba1cfe7648bae6b71df05b76badaa38626b65b7a|Imperial|3",
+  "score|0x63d05922033616a668638289b806c5cb7c355d49c7f8624ee0785c8598d8fadc|DENDELE CS|2",
+  "score|0x63d05922033616a668638289b806c5cb7c355d49c7f8624ee0785c8598d8fadc|Imperial|1",
+  "score|0x33d2487c6de863ed685d841dba1cfe7648bae6b71df05b76badaa38626b65b7a|DENDELE CS|5"
  ],
  "started": true,
  "version": 51
