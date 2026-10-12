@@ -363,7 +363,10 @@
   "score|0x355a8082de8eb808db32ca3cd45c76f0dd9f2015c99907f9ea701335b788d39b|Inner Circle Esports|1",
   "score|0xd10ee529b78fc42c064a571d0791f0b2fa7f45889ab7643b95bdb14aabaf2319|Sangal|2",
   "score|0xccf0f72264cf0d9e85241e6c51d68fd8a995a6c0f6a0ff4da5b8a6f101efc1a8|Betclic Apogee Esports|1",
-  "score|0x355a8082de8eb808db32ca3cd45c76f0dd9f2015c99907f9ea701335b788d39b|Inner Circle Esports|2"
+  "score|0x355a8082de8eb808db32ca3cd45c76f0dd9f2015c99907f9ea701335b788d39b|Inner Circle Esports|2",
+  "score|0xd2c1f4b1f0d1f95dace7e9e245fa03b1c30837b83546ec64e74c1c319769d7aa|Sangal|1",
+  "score|0xd2c1f4b1f0d1f95dace7e9e245fa03b1c30837b83546ec64e74c1c319769d7aa|Sangal|2",
+  "score|0xd2c1f4b1f0d1f95dace7e9e245fa03b1c30837b83546ec64e74c1c319769d7aa|Inner Circle Esports|1"
  ],
  "started": true,
  "version": 51
