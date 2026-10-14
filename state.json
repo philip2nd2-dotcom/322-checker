@@ -474,7 +474,11 @@
   "score|0x0bc38a6db5a0f0c2455238a20047680479fdf0ec84bc8e1ed2eb242488c02c7b|ex-Keyd Stars|4",
   "watch|0xe4d1adaf02ea2e77c9bcad4c5b76a6937f8487c8047ea4ef6e7218e35e6add7e|0xe53f33f58574723549c8d32a06bb03c592e82f56|mellren|0",
   "score|0xb28423d6e45c4df11d9f1b72ee4efd991cc82f4018f2ea5175253fde65dd52cb|6666|1",
-  "score|0xb28423d6e45c4df11d9f1b72ee4efd991cc82f4018f2ea5175253fde65dd52cb|GenOne|1"
+  "score|0xb28423d6e45c4df11d9f1b72ee4efd991cc82f4018f2ea5175253fde65dd52cb|GenOne|1",
+  "score|0x95c9e04cd0c7e5e66cb5c43fd24fba3b40997abd7d494de7a853e483d8b63702|ex-RUSTEC|1",
+  "score|0x95c9e04cd0c7e5e66cb5c43fd24fba3b40997abd7d494de7a853e483d8b63702|ex-RUSTEC|2",
+  "score|0x95c9e04cd0c7e5e66cb5c43fd24fba3b40997abd7d494de7a853e483d8b63702|mellren|3",
+  "score|0x95c9e04cd0c7e5e66cb5c43fd24fba3b40997abd7d494de7a853e483d8b63702|ex-RUSTEC|3"
  ],
  "started": true,
  "version": 51
