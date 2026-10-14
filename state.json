@@ -478,7 +478,11 @@
   "score|0x95c9e04cd0c7e5e66cb5c43fd24fba3b40997abd7d494de7a853e483d8b63702|ex-RUSTEC|1",
   "score|0x95c9e04cd0c7e5e66cb5c43fd24fba3b40997abd7d494de7a853e483d8b63702|ex-RUSTEC|2",
   "score|0x95c9e04cd0c7e5e66cb5c43fd24fba3b40997abd7d494de7a853e483d8b63702|mellren|3",
-  "score|0x95c9e04cd0c7e5e66cb5c43fd24fba3b40997abd7d494de7a853e483d8b63702|ex-RUSTEC|3"
+  "score|0x95c9e04cd0c7e5e66cb5c43fd24fba3b40997abd7d494de7a853e483d8b63702|ex-RUSTEC|3",
+  "score|0x181e158fab5d70f3f739e7589d4441302a5e7b3a71d7fd5bb9425c36d45578bd|The Last Resort|1",
+  "score|0x181e158fab5d70f3f739e7589d4441302a5e7b3a71d7fd5bb9425c36d45578bd|The Last Resort|2",
+  "score|0x181e158fab5d70f3f739e7589d4441302a5e7b3a71d7fd5bb9425c36d45578bd|G2 Ares|1",
+  "score|0x181e158fab5d70f3f739e7589d4441302a5e7b3a71d7fd5bb9425c36d45578bd|The Last Resort|3"
  ],
  "started": true,
  "version": 51
