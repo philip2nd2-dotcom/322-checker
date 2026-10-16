@@ -530,7 +530,9 @@
   "score|0x82e2df667adae548197445574437deef60b045595ceb9b9a0cc43b3e7ee28c36|ex-RUSTEC|1",
   "score|0x6fd76a8da27c88ac062511ab4ea085213106c7d9899e669daf10ce4134cc42d9|MORROW|1",
   "score|0x020a76ff437e2b9ed7aa934d45023eb4c21dfdd86f7216711723c6742e6f36f9|Saint Sinners|1",
-  "score|0x020a76ff437e2b9ed7aa934d45023eb4c21dfdd86f7216711723c6742e6f36f9|ex-RUSTEC|1"
+  "score|0x020a76ff437e2b9ed7aa934d45023eb4c21dfdd86f7216711723c6742e6f36f9|ex-RUSTEC|1",
+  "score|0xc48f8b12a2a7ec09813c750e43fa59528404c3b92acd92bd44df297490ea533a|ex-RUSTEC|1",
+  "score|0xa2582e1d6601d86730c621c8eda3999385bc87f16868d9adfac27386bb95ab7d|your end|1"
  ],
  "started": true,
  "version": 51
