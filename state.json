@@ -517,7 +517,11 @@
   "score|0xc98f448e105a3364039e5c4cc300252b4d28bd716f49bd4678229df8f1f798ed|SUKEBAN|2",
   "score|0x5e232859f7246851ecf329afc529679570c39d26694ec584a20a25d901cfb4e5|eternal premium|1",
   "score|0x5e232859f7246851ecf329afc529679570c39d26694ec584a20a25d901cfb4e5|ZOTIX|1",
-  "score|0x40e3eff48120dd9ae8d0dcd9d03e9a989cfacb615146dd373cca3b3da19e302d|Off Chops|1"
+  "score|0x40e3eff48120dd9ae8d0dcd9d03e9a989cfacb615146dd373cca3b3da19e302d|Off Chops|1",
+  "score|0x40e3eff48120dd9ae8d0dcd9d03e9a989cfacb615146dd373cca3b3da19e302d|FlyQuest|1",
+  "score|0x40e3eff48120dd9ae8d0dcd9d03e9a989cfacb615146dd373cca3b3da19e302d|Off Chops|2",
+  "score|0x40e3eff48120dd9ae8d0dcd9d03e9a989cfacb615146dd373cca3b3da19e302d|FlyQuest|2",
+  "score|0x40e3eff48120dd9ae8d0dcd9d03e9a989cfacb615146dd373cca3b3da19e302d|Off Chops|3"
  ],
  "started": true,
  "version": 51
