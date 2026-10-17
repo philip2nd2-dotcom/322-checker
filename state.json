@@ -549,7 +549,8 @@
   "score|0x3de6f36b5b59c4c4c8bbcf545af181ded1544d55da878fa472144a5902585800|WBT|1",
   "score|0x3de6f36b5b59c4c4c8bbcf545af181ded1544d55da878fa472144a5902585800|HAVU|1",
   "score|0xab020ca1dfda63dd2fb297c10b9097c0ba190484d0d8fcf5589b2f932c89a3ae|HAVU|1",
-  "score|0xab020ca1dfda63dd2fb297c10b9097c0ba190484d0d8fcf5589b2f932c89a3ae|HAVU|2"
+  "score|0xab020ca1dfda63dd2fb297c10b9097c0ba190484d0d8fcf5589b2f932c89a3ae|HAVU|2",
+  "score|0x5c0ca581c53cbb541d847e550f2da4050db099823b9e978353dbb070e4e46b54|ENCE|1"
  ],
  "started": true,
  "version": 51
