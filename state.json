@@ -726,7 +726,9 @@
   "score|0x7acda0bee460138027945c6c13dd129d2701d16f2bda99e7575b782149b2b831|ex-6666|1",
   "score|0x8aaa2f146405fbd82d052e6edb6080814cf1212d04367635f55bf3bc5deadc80|HyperSpirit|1",
   "score|0xcbbf18947284634464fc56ec5c2cb288d5db0e591c9c73b206df0a1bcad2ff8c|Sashi Esport|1",
-  "score|0xcbbf18947284634464fc56ec5c2cb288d5db0e591c9c73b206df0a1bcad2ff8c|HyperSpirit|1"
+  "score|0xcbbf18947284634464fc56ec5c2cb288d5db0e591c9c73b206df0a1bcad2ff8c|HyperSpirit|1",
+  "score|0xcbbf18947284634464fc56ec5c2cb288d5db0e591c9c73b206df0a1bcad2ff8c|Sashi Esport|2",
+  "score|0x90791a4a1b3b05bf1ccec70cb8d72e1f122b1bc82c46df444362a4824bf1e8a8|WBT|3"
  ],
  "started": true,
  "version": 51
