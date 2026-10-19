@@ -646,7 +646,18 @@
   "score|0x8acb7d48eb74d82fe941aafc6f3888d78e834bd332b97f93ee87d105795091a4|TheMongolz|1",
   "score|0x8acb7d48eb74d82fe941aafc6f3888d78e834bd332b97f93ee87d105795091a4|Alliance|1",
   "score|0x65a20c7f89884ca74aceb1d90c0c60aca04bfc83d58ccf033f515a2e26845ad6|WRAITH PCIFIC|3",
-  "score|0x65a20c7f89884ca74aceb1d90c0c60aca04bfc83d58ccf033f515a2e26845ad6|ILLYRIANS|2"
+  "score|0x65a20c7f89884ca74aceb1d90c0c60aca04bfc83d58ccf033f515a2e26845ad6|ILLYRIANS|2",
+  "score|0x8acb7d48eb74d82fe941aafc6f3888d78e834bd332b97f93ee87d105795091a4|Alliance|3",
+  "score|0x8acb7d48eb74d82fe941aafc6f3888d78e834bd332b97f93ee87d105795091a4|TheMongolz|2",
+  "score|0x2148a922fc0cf9b6f9bf181d73623ee83016f63905b90ef51e6e9b3b7d82ee5f|Spirit Academy|1",
+  "score|0x2148a922fc0cf9b6f9bf181d73623ee83016f63905b90ef51e6e9b3b7d82ee5f|Betclic Apogee Esports|1",
+  "score|0x8acb7d48eb74d82fe941aafc6f3888d78e834bd332b97f93ee87d105795091a4|TheMongolz|3",
+  "score|0x8acb7d48eb74d82fe941aafc6f3888d78e834bd332b97f93ee87d105795091a4|Alliance|4",
+  "score|0x8acb7d48eb74d82fe941aafc6f3888d78e834bd332b97f93ee87d105795091a4|Alliance|5",
+  "score|0x8acb7d48eb74d82fe941aafc6f3888d78e834bd332b97f93ee87d105795091a4|TheMongolz|4",
+  "score|0x8acb7d48eb74d82fe941aafc6f3888d78e834bd332b97f93ee87d105795091a4|Alliance|6",
+  "score|0x8acb7d48eb74d82fe941aafc6f3888d78e834bd332b97f93ee87d105795091a4|TheMongolz|6",
+  "score|0x8acb7d48eb74d82fe941aafc6f3888d78e834bd332b97f93ee87d105795091a4|Alliance|8"
  ],
  "started": true,
  "version": 51
