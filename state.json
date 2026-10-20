@@ -735,7 +735,11 @@
   "score|0x9548ba233a5070cd1b3d7b99faa977d89a0f104cafb2ba2026cf3dc87d7cca9d|A NATA|2",
   "score|0x53cd9971e3bf3401d1527712ba247e45a86eda0956a1e04b6480165ae70545d3|Morningstar|1",
   "score|0x53cd9971e3bf3401d1527712ba247e45a86eda0956a1e04b6480165ae70545d3|Lynn Vision|1",
-  "score|0x53cd9971e3bf3401d1527712ba247e45a86eda0956a1e04b6480165ae70545d3|Morningstar|2"
+  "score|0x53cd9971e3bf3401d1527712ba247e45a86eda0956a1e04b6480165ae70545d3|Morningstar|2",
+  "score|0x95fc5a51beb60cdb09d0d25669dc8f0195475f0de4fabe8883fa6098b166cc62|Wept Xyloid Melancholy|1",
+  "score|0x402b78bbdfa03c7a8b8e01ed57398d83db9bd47c72c186462874a8762bb6d64e|Bushido Wildcats|2",
+  "score|0x402b78bbdfa03c7a8b8e01ed57398d83db9bd47c72c186462874a8762bb6d64e|Bushido Wildcats|4",
+  "score|0x402b78bbdfa03c7a8b8e01ed57398d83db9bd47c72c186462874a8762bb6d64e|Bushido Wildcats|5"
  ],
  "started": true,
  "version": 51
