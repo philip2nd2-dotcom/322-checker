@@ -732,7 +732,9 @@
   "score|0x90791a4a1b3b05bf1ccec70cb8d72e1f122b1bc82c46df444362a4824bf1e8a8|WBT|5",
   "score|0x2ee31e11498a60e9f9a1aaa484b57abe3d1ba4238cc8075ea5c42de3f295d5bd|A NATA|1",
   "score|0x9548ba233a5070cd1b3d7b99faa977d89a0f104cafb2ba2026cf3dc87d7cca9d|A NATA|1",
-  "score|0x9548ba233a5070cd1b3d7b99faa977d89a0f104cafb2ba2026cf3dc87d7cca9d|A NATA|2"
+  "score|0x9548ba233a5070cd1b3d7b99faa977d89a0f104cafb2ba2026cf3dc87d7cca9d|A NATA|2",
+  "score|0x53cd9971e3bf3401d1527712ba247e45a86eda0956a1e04b6480165ae70545d3|Morningstar|1",
+  "score|0x53cd9971e3bf3401d1527712ba247e45a86eda0956a1e04b6480165ae70545d3|Lynn Vision|1"
  ],
  "started": true,
  "version": 51
