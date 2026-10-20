@@ -816,7 +816,11 @@
   "score|0xd81c9dfe1bfd94b6b2a055a843d2f5b08a3c03f88da4f7275585079935d3ffa2|Luminosity|2",
   "score|0xd81c9dfe1bfd94b6b2a055a843d2f5b08a3c03f88da4f7275585079935d3ffa2|BBL|2",
   "score|0xa5fab39ba6f863f1e84cda5a32c0cffbf8dcd374f2825ed7963a1836e436d1a2|Iberian Soul|1",
-  "score|0xa5fab39ba6f863f1e84cda5a32c0cffbf8dcd374f2825ed7963a1836e436d1a2|ASTRAL|1"
+  "score|0xa5fab39ba6f863f1e84cda5a32c0cffbf8dcd374f2825ed7963a1836e436d1a2|ASTRAL|1",
+  "score|0xa5fab39ba6f863f1e84cda5a32c0cffbf8dcd374f2825ed7963a1836e436d1a2|ASTRAL|2",
+  "score|0xa5fab39ba6f863f1e84cda5a32c0cffbf8dcd374f2825ed7963a1836e436d1a2|ASTRAL|5",
+  "score|0xa5fab39ba6f863f1e84cda5a32c0cffbf8dcd374f2825ed7963a1836e436d1a2|Iberian Soul|2",
+  "score|0xa5fab39ba6f863f1e84cda5a32c0cffbf8dcd374f2825ed7963a1836e436d1a2|ASTRAL|6"
  ],
  "started": true,
  "version": 51
