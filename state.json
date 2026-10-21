@@ -902,7 +902,10 @@
   "score|0xadbe3752d7ef71b8a65101aa0903f3f55c2dd882493602975ba1cd1eed407d6f|Envy|1",
   "score|0xadbe3752d7ef71b8a65101aa0903f3f55c2dd882493602975ba1cd1eed407d6f|FaZe|1",
   "score|0x857b2aea7cd034f4eec823a2385327c0c6d5be1d5d0b599e88606e2b6a3dc004|BBL|3",
-  "score|0x857b2aea7cd034f4eec823a2385327c0c6d5be1d5d0b599e88606e2b6a3dc004|Heroic|3"
+  "score|0x857b2aea7cd034f4eec823a2385327c0c6d5be1d5d0b599e88606e2b6a3dc004|Heroic|3",
+  "score|0xadbe3752d7ef71b8a65101aa0903f3f55c2dd882493602975ba1cd1eed407d6f|FaZe|2",
+  "score|0xadbe3752d7ef71b8a65101aa0903f3f55c2dd882493602975ba1cd1eed407d6f|Envy|2",
+  "score|0x45d1bbffc34446a87dc02426db1b9dbb7b711f7f0f416fd3e21a0ee2f23b9153|Envy|1"
  ],
  "started": true,
  "version": 51
