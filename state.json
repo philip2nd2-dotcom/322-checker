@@ -865,7 +865,10 @@
   "score|0x1dc4236f9915cb4b6b9e25cd94ef146bde0061db9ee57c1942cf4c34dd70c7e2|HAVU|1",
   "score|0x5051b3118bbc028194feca4ec57fe5e91fcf8d5efe065dd3d0f35407732ffa43|9INE Academy|1",
   "score|0xdd2513979612f5088ab87b0feae3efaeebfaebcf938237fe7e7be25acd9267dc|HAVU|2",
-  "score|0xdd2513979612f5088ab87b0feae3efaeebfaebcf938237fe7e7be25acd9267dc|Inner Circle Academy|1"
+  "score|0xdd2513979612f5088ab87b0feae3efaeebfaebcf938237fe7e7be25acd9267dc|Inner Circle Academy|1",
+  "score|0x5051b3118bbc028194feca4ec57fe5e91fcf8d5efe065dd3d0f35407732ffa43|CTRL Esports|1",
+  "score|0xdd2513979612f5088ab87b0feae3efaeebfaebcf938237fe7e7be25acd9267dc|HAVU|1",
+  "score|0x5051b3118bbc028194feca4ec57fe5e91fcf8d5efe065dd3d0f35407732ffa43|9INE Academy|2"
  ],
  "started": true,
  "version": 51
