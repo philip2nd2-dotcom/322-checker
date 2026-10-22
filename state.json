@@ -948,7 +948,10 @@
   "score|0x9fc60cee1dbd3c9c8faaf7772982020f7d816d143996e674b483d37792e69124|Team Nemesis|1",
   "score|0x9fc60cee1dbd3c9c8faaf7772982020f7d816d143996e674b483d37792e69124|WW Team|1",
   "score|0xd6729d3dd3456da121de1fbccf75b69b76a8a2c4b6592dc5cf89537d1c60142d|Spirit Academy|3",
-  "score|0xd6729d3dd3456da121de1fbccf75b69b76a8a2c4b6592dc5cf89537d1c60142d|GenOne|4"
+  "score|0xd6729d3dd3456da121de1fbccf75b69b76a8a2c4b6592dc5cf89537d1c60142d|GenOne|4",
+  "score|0x009af3ae5f3abec4b0b216c6b3f712cc2e3ceb5967bfdc0192f900025f090cf2| Phantom Academy|2",
+  "score|0x5503a4c02b6b82f8234a45df4e0b589c09fba65ae6762e03911848c25caa8c15| Phantom Academy|1",
+  "score|0x009af3ae5f3abec4b0b216c6b3f712cc2e3ceb5967bfdc0192f900025f090cf2| Phantom Academy|3"
  ],
  "started": true,
  "version": 51
