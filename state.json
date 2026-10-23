@@ -1035,7 +1035,11 @@
   "score|0x334a7dd39b00e7373df6180693af496f5beb6c188c00c682ecef853dbd52ebb4|Spirit Academy|1",
   "score|0x334a7dd39b00e7373df6180693af496f5beb6c188c00c682ecef853dbd52ebb4|Inner Circle Academy|1",
   "score|0x334a7dd39b00e7373df6180693af496f5beb6c188c00c682ecef853dbd52ebb4|Spirit Academy|2",
-  "score|0x923f89478d976627154b33de8e2d98cc20aeba2ea71cfb338fd43352831260e6|ILLYRIANS|1"
+  "score|0x923f89478d976627154b33de8e2d98cc20aeba2ea71cfb338fd43352831260e6|ILLYRIANS|1",
+  "score|0x334a7dd39b00e7373df6180693af496f5beb6c188c00c682ecef853dbd52ebb4|Spirit Academy|3",
+  "score|0x334a7dd39b00e7373df6180693af496f5beb6c188c00c682ecef853dbd52ebb4|Inner Circle Academy|3",
+  "score|0x923f89478d976627154b33de8e2d98cc20aeba2ea71cfb338fd43352831260e6|ILLYRIANS|2",
+  "score|0x923f89478d976627154b33de8e2d98cc20aeba2ea71cfb338fd43352831260e6|Nuclear TigeRES|1"
  ],
  "started": true,
  "version": 51
