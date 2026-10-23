@@ -1056,7 +1056,10 @@
   "score|0x46350bac0a532de2ebf0bb6b10c3cca69d6534652ec8f62e3a450b40d7ef00bc|K27|4",
   "score|0x90dcf83d31e52dd58cc68014ed11a2ee8546d9267706af15bd2d90d129f56050|S\u00f6kerorg|1",
   "score|0x90dcf83d31e52dd58cc68014ed11a2ee8546d9267706af15bd2d90d129f56050|maybe|1",
-  "score|0xb0d20f270ea3aa93f5a5ac1a9339c5c2a93392aad53a658721d6b44c433b25b6|WBT Academy|1"
+  "score|0xb0d20f270ea3aa93f5a5ac1a9339c5c2a93392aad53a658721d6b44c433b25b6|WBT Academy|1",
+  "score|0xbf3e32cc54b73d876c27ff36bd75934c6142d8b3397e45618b27d8057576900c|Virtus.pro|1",
+  "score|0x1d3b1c19777fbee21fd95c381f8855cdff9602b1f3ab3fd2cda82c00f1fc9b04|Team Nemesis|1",
+  "score|0x1d3b1c19777fbee21fd95c381f8855cdff9602b1f3ab3fd2cda82c00f1fc9b04|Virtus.pro|1"
  ],
  "started": true,
  "version": 51
