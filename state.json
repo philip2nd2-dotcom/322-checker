@@ -1167,7 +1167,9 @@
   "score|0x78521db3004ea0d70a37cac4c61b2c279ac03ace0e82c3609a14a52fc6dbe2c7|Voca|1",
   "score|0x548295fa30644d8be86c0c79a4bc76643ec8dbf1ff8fbfafc11b278b19213d6b|Ground Zero|1",
   "score|0x548295fa30644d8be86c0c79a4bc76643ec8dbf1ff8fbfafc11b278b19213d6b|Off Chops|1",
-  "score|0x548295fa30644d8be86c0c79a4bc76643ec8dbf1ff8fbfafc11b278b19213d6b|Ground Zero|2"
+  "score|0x548295fa30644d8be86c0c79a4bc76643ec8dbf1ff8fbfafc11b278b19213d6b|Ground Zero|2",
+  "score|0x1e00c8052dead16ae9eab79c9f92b5f7c5ef00a2ef3c3b8e9f292a751e4729e3|Off Chops|1",
+  "score|0x1e00c8052dead16ae9eab79c9f92b5f7c5ef00a2ef3c3b8e9f292a751e4729e3|Ground Zero|1"
  ],
  "started": true,
  "version": 51
