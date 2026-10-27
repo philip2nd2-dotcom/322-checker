@@ -1212,7 +1212,16 @@
   "score|0x79add0ab157ed91994cd62d9b0aae629a12e3ecc6ce834eb45002ebfc07770cc|fnatic|1",
   "score|0x8bd45900bdfdffefa0f674dac6d16a519ae1a6bcaa281ca04ad6db83ba7c1828|Inner Circle Esports|1",
   "score|0x8bd45900bdfdffefa0f674dac6d16a519ae1a6bcaa281ca04ad6db83ba7c1828|Team Nemesis|1",
-  "score|0x2e449a9485ee9aca4787c01707b8c2d5355dfb75a80248d025004b6305ff60fb|Inner Circle Esports|4"
+  "score|0x2e449a9485ee9aca4787c01707b8c2d5355dfb75a80248d025004b6305ff60fb|Inner Circle Esports|4",
+  "score|0x5581a56e9e84e54d29bb38c4efe3a8b527e0ecd78271f997654a4994f9794248|MORROW|2",
+  "score|0x5581a56e9e84e54d29bb38c4efe3a8b527e0ecd78271f997654a4994f9794248|maybe|4",
+  "score|0x92e7238dfb5c52aea2ed36357eb829fff95728e285e569b727bb5a17e4a8f718|Lavked|2",
+  "score|0x92e7238dfb5c52aea2ed36357eb829fff95728e285e569b727bb5a17e4a8f718|Inner Circle Academy|3",
+  "score|0x919a4e7ec5724b41af756c5cb11905c6d088e86116fc093539a4251e94b19b4f|Inner Circle Academy|1",
+  "score|0x1b183243469ca3f2facf9ec46ee0eb0db9db04cf461b81cb8aec5401ad63a81c|Revise|2",
+  "score|0x9b712d3a27a19c87a81aa5cd47f1ae2b0438ad34ad98cd9e0f731dd0575c85dd|Brute|1",
+  "score|0x30d831ef47b044e8997c315cbbad1ce9cddf9f523915c591ad03a1c9b9e83639|Brute|4",
+  "score|0x30d831ef47b044e8997c315cbbad1ce9cddf9f523915c591ad03a1c9b9e83639|FOKUS|2"
  ],
  "started": true,
  "version": 51
