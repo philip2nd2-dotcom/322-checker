@@ -1221,7 +1221,11 @@
   "score|0x1b183243469ca3f2facf9ec46ee0eb0db9db04cf461b81cb8aec5401ad63a81c|Revise|2",
   "score|0x9b712d3a27a19c87a81aa5cd47f1ae2b0438ad34ad98cd9e0f731dd0575c85dd|Brute|1",
   "score|0x30d831ef47b044e8997c315cbbad1ce9cddf9f523915c591ad03a1c9b9e83639|Brute|4",
-  "score|0x30d831ef47b044e8997c315cbbad1ce9cddf9f523915c591ad03a1c9b9e83639|FOKUS|2"
+  "score|0x30d831ef47b044e8997c315cbbad1ce9cddf9f523915c591ad03a1c9b9e83639|FOKUS|2",
+  "score|0xfbf8db53fe3e9da10fea7a935680c4d70714628114da1f90cf9934855d663285|Rooster|2",
+  "score|0xfbf8db53fe3e9da10fea7a935680c4d70714628114da1f90cf9934855d663285|Abyssal|2",
+  "score|0x6a5e0ae327e2fbba10bd91d2555becfc1732b99be868313efcb613e0d5582fc9|Rooster|1",
+  "score|0x6a5e0ae327e2fbba10bd91d2555becfc1732b99be868313efcb613e0d5582fc9|Abyssal|1"
  ],
  "started": true,
  "version": 51
