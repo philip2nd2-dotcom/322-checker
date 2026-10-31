@@ -1293,7 +1293,15 @@
   "score|0x8d0cabccc9aa1103e5f75a14271dd11c9c927e7f57fdb1c4b0ed6d8e1f81b569|OG|2",
   "score|0x8413fcfd4d8bac3ce80af1305b11b8deb536e52a42158745c99a1275d79cbc4d|Wildcard|1",
   "score|0x8d0cabccc9aa1103e5f75a14271dd11c9c927e7f57fdb1c4b0ed6d8e1f81b569|BC.Game Esports|4",
-  "score|0x8d0cabccc9aa1103e5f75a14271dd11c9c927e7f57fdb1c4b0ed6d8e1f81b569|OG|3"
+  "score|0x8d0cabccc9aa1103e5f75a14271dd11c9c927e7f57fdb1c4b0ed6d8e1f81b569|OG|3",
+  "score|0x06b76c946c17b358a6b77719e96c4ab07d1ef9dd92bd038c08f5a71f54ac5511|HOTU|1",
+  "score|0x680d34edfeda5dab9aa3a952bc66eb297b1f3deffddb5e8e47981a6850fe02ff|HOTU|4",
+  "score|0x680d34edfeda5dab9aa3a952bc66eb297b1f3deffddb5e8e47981a6850fe02ff|The Huns Esports|1",
+  "score|0xbd880ee11c274b834665abf17f6fe0c854b3587c75c1db7fb8a27d2043fcd3a1|NEXVOID|1",
+  "score|0xbd880ee11c274b834665abf17f6fe0c854b3587c75c1db7fb8a27d2043fcd3a1|Alter Ego|2",
+  "score|0x095363c6e09fe4690bb7e44280f469102b7364802939a3c7f7fe1588bd45ec18|NEXVOID|1",
+  "score|0x095363c6e09fe4690bb7e44280f469102b7364802939a3c7f7fe1588bd45ec18|Alter Ego|1",
+  "score|0x680d34edfeda5dab9aa3a952bc66eb297b1f3deffddb5e8e47981a6850fe02ff|HOTU|5"
  ],
  "started": true,
  "version": 51
