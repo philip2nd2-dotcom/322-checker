@@ -1336,7 +1336,11 @@
   "score|0x25b934d6fa9f49f5ae90939ec77ece899cb91139d41722e2395b47e641f906f9|BESTIA|1",
   "score|0xc0ad4cdeae7ab0c56b747df7fa42d857cc64547bda9c5b569800b47c90e8bb82|BARCA|2",
   "score|0x3788d4afe3ad6f0281f6b7d631eab9e3738d6ea3c1bf6dfeef1e3ef6723c9b23|BARCA|1",
-  "score|0xacbf731ba899beeac83278acb10606febc854fb5f3f328dfb41b12bd95374a41|naocopulas|1"
+  "score|0xacbf731ba899beeac83278acb10606febc854fb5f3f328dfb41b12bd95374a41|naocopulas|1",
+  "score|0x809f9016b6565c09a3cb003c00b61043c36b9471bf7f8072872767c063076cca|Wildcard|1",
+  "score|0x809f9016b6565c09a3cb003c00b61043c36b9471bf7f8072872767c063076cca|NRG|2",
+  "score|0x85e1a7fd78965cd5f8aaf5cdd5a2e2b5b3eff0d2c61126a4ecc27f1895493a1c|NRG|1",
+  "score|0x85e1a7fd78965cd5f8aaf5cdd5a2e2b5b3eff0d2c61126a4ecc27f1895493a1c|Wildcard|2"
  ],
  "started": true,
  "version": 51
